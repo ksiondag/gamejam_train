@@ -4,14 +4,14 @@ var fs = require('fs');
 prompt.start();
 
 var description;
-
+var str;
 var leverR;
 var leverL;
 
 //attempt to read from a file
 fs.readFile('./leverRoom.txt', 'utf-8', function(err, data){
 	if(err) throw err;
-	var str = data.split("\n");
+	str = data.split("\n");
 	description = str[0];
 	leverR = str[1];
 	leverL = str[2];
@@ -51,11 +51,13 @@ function onErr(err) {
 function flipLeverR(){
 	leverR = 'down';
 	leverL = 'up';
+	fs.writeFile('./leverRoom.txt', description + '\n' + leverR + '\n' + leverL, function(err){if(err) throw err;});
 }
 
 function flipLeverL(){
 	leverL = 'down';
 	leverR = 'up';
+	fs.writeFile('./leverRoom.txt', description + '\n' + leverR + '\n' + leverL, function(err){if(err) throw err;});
 }
 
 function printLevers()
