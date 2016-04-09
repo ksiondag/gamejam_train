@@ -7,12 +7,12 @@ var leverL;
 //flip levers and save the state of the room
 function flipLever(str)
 {
-	if(str === 'left')
+	if(str === 'left lever')
 	{
 		leverL= leverL ? false : true;
 		leverR=false;
 	}
-	if(str === 'right')
+	if(str === 'right lever')
 	{
 		leverR= leverR ? false : true;
 		leverL=false;

@@ -22,11 +22,13 @@ function getInput()
 		return;
 	}
 	
-	//flip one lever, restores the other lever
-	if(result === 'flip left lever')
-	{leverRoom.flipLever('left');}
-	if(result === 'flip right lever')
-	{leverRoom.flipLever('right');}
+	var index = result.indexOf(' ');
+	var args = result.slice(index+1);
+	result = result.slice(0, index);
+	if(result === 'flip')
+	{
+		leverRoom.flipLever(args);
+	}
 	
 	//recursion to make an infinite loop
 	getInput();
