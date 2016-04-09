@@ -1,12 +1,8 @@
 //sets up the command line reader and filesystem
-var readline = require('readline');
-var rl = readline.createInterface({input: process.stdin, output: process.stdout});
-
-var fs = require('fs');
+var rl = require('readline').createInterface({input: process.stdin, output: process.stdout});
 
 var game = require('./game');
 
-var description;
 var leverR;
 var leverL;
 
@@ -67,7 +63,7 @@ function flipLever(str)
         room.state['right lever'] = leverR;
 
         game.saveRoom(room, (err) => {if(err) throw err;});
-    });
+        });
 }
 
 //prints the state of the levers, true is up, false is down
@@ -77,4 +73,3 @@ function printLevers()
 	var str2 = leverR ? 'up' : 'down';
 	console.log('Left Lever: ' + str1 + ' Right Lever: '  + str2);
 }
-
