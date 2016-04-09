@@ -1,30 +1,37 @@
+//import prompt and filesystem
 var prompt = require('prompt');
-var fs = require('fs');
-
 prompt.start();
 
+var fs = require('fs');
+
 var description;
-var str;
 var leverR;
 var leverL;
 
 //attempt to read from a file
-fs.readFile('./leverRoom.txt', 'utf-8', function(err, data){
+fs.readFile('./leverRoom.txt', 'utf-8', (err, data) => {
 	if(err) throw err;
-	str = data.split("\n");
+	
+	//splits the text file into sepperate lines
+	var str = data.split("\n");
 	description = str[0];
 	leverR = str[1];
 	leverL = str[2];
+	
 	console.log(description);
 	printLevers();
 	//starts the main loop
 	getInput();
 });
 
-function getInput() {prompt.get(['command'], function (err, result){
+//main loop
+function getInput()
+{
+	//get input from user
+	prompt.get(['command'], (err, result) => {
 
 	//incase of an error
-	if(err) {return onErr(err);}
+	if(err) throw err;
 	//quits the game
 	if(result.command === 'quit')
 	{return;}
@@ -40,24 +47,29 @@ function getInput() {prompt.get(['command'], function (err, result){
 	printLevers();
 	//recursion to make an infinite loop
 	getInput();
-});
+	});
 }
 
-function onErr(err) {
-	console.log(err);
-	return 1;
-}
-
-function flipLeverR(){
+//flip levers
+function flipLeverR()
+{
 	leverR = 'down';
 	leverL = 'up';
-	fs.writeFile('./leverRoom.txt', description + '\n' + leverR + '\n' + leverL, function(err){if(err) throw err;});
+	
+	//save levers' state to leverRoom.txt
+	var output = description + '\n' + leverR + '\n' + leverL;
+	fs.writeFile('./leverRoom.txt', output, (err) => {if(err) throw err;});
 }
 
-function flipLeverL(){
+//flip levers
+function flipLeverL()
+{
 	leverL = 'down';
 	leverR = 'up';
-	fs.writeFile('./leverRoom.txt', description + '\n' + leverR + '\n' + leverL, function(err){if(err) throw err;});
+	
+	//save levers' state to leverRoom.txt
+	var output = description + '\n' + leverR + '\n' + leverL;
+	fs.writeFile('./leverRoom.txt', output, (err) => {if(err) throw err;});
 }
 
 function printLevers()
