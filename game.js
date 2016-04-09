@@ -8,6 +8,8 @@ Get current room
 // Node libraries in use
 var fs = require('fs');
 
+var CURRENT_ROOM = 'saveState/currentRoom.txt';
+
 var initSaveState = (callback) => {
     fs.mkdir('saveState', () => {
         fs.readFile('assets/leverRoom.txt', 'utf-8', (err, data) => {
@@ -18,21 +20,19 @@ var initSaveState = (callback) => {
                 if (err) {
                     throw err;
                 }
-                fs.symlink('leverRoom.txt', 'saveState/currentRoom.txt',
-                    (err) => {
-                        if (err) {
-                            throw err;
-                        }
-                        callback(data);
+                fs.symlink('leverRoom.txt', CURRENT_ROOM, (err) => {
+                    if (err) {
+                        throw err;
                     }
-                );
+                    callback(data);
+                });
             });
         });
     });
 };
 
-var getRoom = function (callback) {
-    fs.readFile('saveState/currentRoom.txt', 'utf-8', (err, data) => {
+var getRoom = (callback) => {
+    fs.readFile(CURRENT_ROOM, 'utf-8', (err, data) => {
         if (err) {
             // Save state does not exist yet
             initSaveState(callback);
@@ -42,5 +42,10 @@ var getRoom = function (callback) {
     });
 };
 
+var saveRoom = (data, callback) => {
+	fs.writeFile(CURRENT_ROOM, data, callback);
+};
+
 exports.getRoom = getRoom;
+exports.saveRoom = saveRoom;
 

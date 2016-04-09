@@ -4,14 +4,14 @@ prompt.start();
 
 var fs = require('fs');
 
+var game = require('./game');
+
 var description;
 var leverR;
 var leverL;
 
 //attempt to read from a file
-fs.readFile('./leverRoom.txt', 'utf-8', (err, data) => {
-	if(err) throw err;
-	
+game.getRoom((data) => {
 	//splits the text file into sepperate lines
 	var str = data.split("\n");
 	description = str[0];
@@ -58,7 +58,7 @@ function flipLeverR()
 	
 	//save levers' state to leverRoom.txt
 	var output = description + '\n' + leverR + '\n' + leverL;
-	fs.writeFile('./leverRoom.txt', output, (err) => {if(err) throw err;});
+    game.saveRoom(output, (err) => {if(err) throw err;});
 }
 
 //flip levers
@@ -69,7 +69,7 @@ function flipLeverL()
 	
 	//save levers' state to leverRoom.txt
 	var output = description + '\n' + leverR + '\n' + leverL;
-	fs.writeFile('./leverRoom.txt', output, (err) => {if(err) throw err;});
+    game.saveRoom(output, (err) => {if(err) throw err;});
 }
 
 function printLevers()
