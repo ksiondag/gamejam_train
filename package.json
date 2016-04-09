@@ -15,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "simple-git": "^1.31.1"
+  },
+  "devDependencies": {
+    "prompt": "~1.0.0"
   }
 }
