@@ -36,9 +36,9 @@ function getInput()
 	
 	//flip one lever, restores the other lever
 	if(result === 'flip left lever')
-	{flipLeverL();}
+	{flipLever('left');}
 	if(result === 'flip right lever')
-	{flipLeverR();}
+	{flipLever('right');}
 	
 	
 	//prints the levers
@@ -48,33 +48,27 @@ function getInput()
 	});
 }
 
-//flip levers
-function flipLeverR()
+//flip levers and save the state of the room
+function flipLever(str)
 {
-	leverR = leverR ? false : true;
-	leverL = false;
+	if(str === 'left')
+	{
+		leverL= leverL ? false : true;
+		leverR=false;
+	}
+	if(str === 'right')
+	{
+		leverR= leverR ? false : true;
+		leverL=false;
+	}
 	
-	updateRoom();
-}
-
-//flip levers
-function flipLeverL()
-{
-	leverR = false;
-	leverL = leverL ? false : true;
-	
-	updateRoom();
-}
-
-//save the state of the room
-function updateRoom () {
-    game.getRoom((room) => {
+	game.getRoom((room) => {
         room.state['left lever'] = leverL;
         room.state['right lever'] = leverR;
 
         game.saveRoom(room, (err) => {if(err) throw err;});
     });
-};
+}
 
 //prints the state of the levers, true is up, false is down
 function printLevers()
