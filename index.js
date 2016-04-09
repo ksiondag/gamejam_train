@@ -9,7 +9,7 @@ var leverR;
 var leverL;
 
 //attempt to read from a file
-fs.readFile('/home/iplunkett/Documents/gamejam/gamejam_train/leverRoom.txt', 'utf-8', function(err, data){
+fs.readFile('./leverRoom.txt', 'utf-8', function(err, data){
 	if(err) throw err;
 	var str = data.split("\n");
 	description = str[0];
