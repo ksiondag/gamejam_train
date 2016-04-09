@@ -1,3 +1,0 @@
-There are two levers, one on the right, and the other on the left.
-up
-down

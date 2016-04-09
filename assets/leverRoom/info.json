@@ -1,0 +1,101 @@
+{
+
+
+"description": "There are two levers, one on the right, and the other on the left.",
+
+
+"commands": {
+
+
+
+
+"flip": {
+
+
+
+
+
+
+"alias": [
+
+
+
+
+
+
+
+
+"switch",
+
+
+
+
+
+
+
+
+"pull"
+
+
+
+
+
+
+],
+
+
+
+
+
+
+"items": [
+
+
+
+
+
+
+
+
+"left lever",
+
+
+
+
+
+
+
+
+"right lever"
+
+
+
+
+
+
+]
+
+
+
+
+}
+
+
+},
+
+
+"state": {
+
+
+
+
+"left lever": false,
+
+
+
+
+"right lever": false
+
+
+}
+}
