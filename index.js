@@ -66,6 +66,7 @@ function flipLeverL()
 	updateRoom();
 }
 
+//save the state of the room
 function updateRoom () {
     game.getRoom((room) => {
         room.state['left lever'] = leverL;
@@ -75,8 +76,11 @@ function updateRoom () {
     });
 };
 
+//prints the state of the levers, true is up, false is down
 function printLevers()
 {
-	console.log('Left Lever: ' + leverL + ' Right Lever: ' + leverR);
+	var str1 = leverL ? 'up' : 'down';
+	var str2 = leverR ? 'up' : 'down';
+	console.log('Left Lever: ' + str1 + ' Right Lever: '  + str2);
 }
 
