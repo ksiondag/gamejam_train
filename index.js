@@ -1,6 +1,6 @@
-//import prompt and filesystem
-var prompt = require('prompt');
-prompt.start();
+//sets up the command line reader and filesystem
+var readline = require('readline');
+var rl = readline.createInterface({input: process.stdin, output: process.stdout});
 
 var fs = require('fs');
 
@@ -28,18 +28,19 @@ game.getRoom((data) => {
 function getInput()
 {
 	//get input from user
-	prompt.get(['command'], (err, result) => {
+	rl.question('command: ', (result) => {
 
-	//incase of an error
-	if(err) throw err;
 	//quits the game
-	if(result.command === 'quit')
-	{return;}
+	if(result === 'quit')
+	{
+		rl.close();
+		return;
+	}
 	
 	//flip one lever, restores the other lever
-	if(result.command === 'flip left lever')
+	if(result === 'flip left lever')
 	{flipLeverL();}
-	if(result.command === 'flip right lever')
+	if(result === 'flip right lever')
 	{flipLeverR();}
 	
 	
