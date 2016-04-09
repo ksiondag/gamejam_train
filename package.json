@@ -1,0 +1,19 @@
+{
+  "name": "gamejam_train",
+  "version": "0.0.1",
+  "description": "Time-travel adventure game that TRAINS (hehe) you to use git.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "git",
+    "game",
+    "adventure"
+  ],
+  "author": "Silent K, Isaac, Jorge",
+  "license": "ISC",
+  "dependencies": {
+    "simple-git": "^1.31.1"
+  }
+}
