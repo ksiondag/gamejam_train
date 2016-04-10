@@ -1,18 +1,11 @@
 {
   "winningText": "The fire is out. The button, pressed down only by a vase full of water, is now kept pressed down by an empty vase. You cross the raised bridge, open the unlocked door, and move on to the next car.",
   "winningState": {
-    "shoesIntact": true,
     "stuckOnButton": false,
     "bridge": true,
     "fire": false
   },
   "state": {
-
-
-
-
-
-    "shoesIntact": true,
 
 
 

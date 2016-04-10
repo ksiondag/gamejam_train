@@ -15,12 +15,13 @@ var commands = {
 
     Seriously, though, here are some commands:
         help: prints this prompt
-        quit: jump off the train (exits the game)
         describe: get some information on where you are
                   and find out what's been done so far
-        realities: find out what parallel realities exist
+        realities: find out what parallel realities exist for this train car
         warp: change realities
         merge: merge another reality with the current one
+        reset: reset all realities of this train car
+        quit: jump off the train (exits the game)
 `
         );
         callback();
@@ -29,12 +30,14 @@ var commands = {
         rl.close();
         process.exit(0);
     },
-    /*
-    describe: function (room, callback) {
-        console.log(room.description);
-        callback();
+    reset: function (room, callback) {
+        game.resetCurrentRoom(() => {
+            console.log(
+`    All realities of current train car have been reset to original state.`
+            );
+            callback();
+        });
     },
-    */
     describe: function (room, callback) {
         game.currentRoom((err, roomString) => {
             git.log(path.join('saveState', roomString), (err, data) => {
@@ -58,14 +61,26 @@ var commands = {
         });
     },
     warp: function (room, reality, callback) {
+        if (reality && !callback) {
+            console.log('Need a reality name to warp to. See them with "realities" command');
+            return reality();
+        }
         game.currentRoom((err, roomString) => {
             git.checkout(path.join('saveState', roomString), reality, (err) => {
-                console.log(`    Warped to reality "${reality}".`);
+                if (err) {
+                    console.log(`    No reality "${reality}" to warp to.`);
+                } else {
+                    console.log(`    Warped to reality "${reality}".`);
+                }
                 callback();
             });
         });
     },
     merge: function (room, reality, callback) {
+        if (reality && !callback) {
+            console.log('Need a reality name to merge with. See them with "realities" command');
+            return reality();
+        }
         game.currentRoom((err, roomString) => {
             git.merge(path.join('saveState', roomString), reality, (err, data) => {
                 if (err) {
@@ -90,9 +105,11 @@ var main = () => {
     game.getRoom((room) => {
         var roomIndex;
 
+        if (!room) {
+        }
+
         if (game.passesWinCondition(room)) {
-            // TODO: print winning text
-            // TODO: update to next room
+            return main();
         }
 
         if (prompts.length > 0) {

@@ -38,3 +38,21 @@ e974460975ef3a8eada52011fec5b18151c176c1 5f1bdabcbf399e882e09a1f822c959e348445a3
 336847fe63121b9d96b349257f55e01ccd21d872 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300377 -0700	rebase -i (finish): returning to refs/heads/standing_on_button
 336847fe63121b9d96b349257f55e01ccd21d872 5f1bdabcbf399e882e09a1f822c959e348445a34 Silent K <silentksionda@gmail.com> 1460300391 -0700	checkout: moving from standing_on_button to water_vase_on_button
 5f1bdabcbf399e882e09a1f822c959e348445a34 fd8d91ef6a3ad8c488f18f7e12037f547882c47d Silent K <silentksionda@gmail.com> 1460300509 -0700	checkout: moving from water_vase_on_button to start
+fd8d91ef6a3ad8c488f18f7e12037f547882c47d 93bacced704abdccbccf5d5db454129097fd0858 Silent K <silentksionda@gmail.com> 1460300778 -0700	commit (amend): There is a wall of fire in front of you. Behind the fire is a lowered
+93bacced704abdccbccf5d5db454129097fd0858 fc15783dbb9a8de0ff407968ff96a10d4c4f9826 Silent K <silentksionda@gmail.com> 1460300784 -0700	checkout: moving from start to pour_out_vase_on_fire
+fc15783dbb9a8de0ff407968ff96a10d4c4f9826 93bacced704abdccbccf5d5db454129097fd0858 Silent K <silentksionda@gmail.com> 1460300791 -0700	rebase -i (start): checkout start
+93bacced704abdccbccf5d5db454129097fd0858 a028cb3dea61cd706565b0adb7d7f8687257597f Silent K <silentksionda@gmail.com> 1460300791 -0700	rebase -i (pick): I have poured the water out of the vase and on to the fire,
+a028cb3dea61cd706565b0adb7d7f8687257597f a028cb3dea61cd706565b0adb7d7f8687257597f Silent K <silentksionda@gmail.com> 1460300791 -0700	rebase -i (finish): returning to refs/heads/pour_out_vase_on_fire
+a028cb3dea61cd706565b0adb7d7f8687257597f 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300798 -0700	checkout: moving from pour_out_vase_on_fire to standing_on_button
+336847fe63121b9d96b349257f55e01ccd21d872 5f1bdabcbf399e882e09a1f822c959e348445a34 Silent K <silentksionda@gmail.com> 1460300824 -0700	checkout: moving from standing_on_button to water_vase_on_button
+5f1bdabcbf399e882e09a1f822c959e348445a34 93bacced704abdccbccf5d5db454129097fd0858 Silent K <silentksionda@gmail.com> 1460300831 -0700	rebase -i (start): checkout start
+93bacced704abdccbccf5d5db454129097fd0858 b4bc99d0732b49057481d8e7f3dab2b11ca82c96 Silent K <silentksionda@gmail.com> 1460300831 -0700	rebase -i (pick): Putting the water vase on the button has successfully depressed it.
+b4bc99d0732b49057481d8e7f3dab2b11ca82c96 b4bc99d0732b49057481d8e7f3dab2b11ca82c96 Silent K <silentksionda@gmail.com> 1460300832 -0700	rebase -i (finish): returning to refs/heads/water_vase_on_button
+b4bc99d0732b49057481d8e7f3dab2b11ca82c96 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300838 -0700	checkout: moving from water_vase_on_button to standing_on_button
+336847fe63121b9d96b349257f55e01ccd21d872 b4bc99d0732b49057481d8e7f3dab2b11ca82c96 Silent K <silentksionda@gmail.com> 1460300860 -0700	rebase -i (start): checkout water_vase_on_button
+b4bc99d0732b49057481d8e7f3dab2b11ca82c96 591b5c3bbf1626fef08b5885194b95df22a6f217 Silent K <silentksionda@gmail.com> 1460300888 -0700	rebase -i (continue): Well, the fire's out and the button is pressed, so the bridge is raised.
+591b5c3bbf1626fef08b5885194b95df22a6f217 591b5c3bbf1626fef08b5885194b95df22a6f217 Silent K <silentksionda@gmail.com> 1460300890 -0700	rebase -i (finish): returning to refs/heads/standing_on_button
+591b5c3bbf1626fef08b5885194b95df22a6f217 b4bc99d0732b49057481d8e7f3dab2b11ca82c96 Silent K <silentksionda@gmail.com> 1460301616 -0700	checkout: moving from standing_on_button to water_vase_on_button
+b4bc99d0732b49057481d8e7f3dab2b11ca82c96 b4bc99d0732b49057481d8e7f3dab2b11ca82c96 Silent K <silentksionda@gmail.com> 1460301633 -0700	checkout: moving from water_vase_on_button to broken_vase_on_button
+b4bc99d0732b49057481d8e7f3dab2b11ca82c96 5592577fe1735f46d4e92d25d53a57ede50caaf4 Silent K <silentksionda@gmail.com> 1460301676 -0700	commit: I broke the bottom of the vase whilst putting it on the button. The
+5592577fe1735f46d4e92d25d53a57ede50caaf4 93bacced704abdccbccf5d5db454129097fd0858 Silent K <silentksionda@gmail.com> 1460301849 -0700	checkout: moving from broken_vase_on_button to start

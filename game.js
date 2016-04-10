@@ -14,16 +14,27 @@ var rooms = [
 ];
 
 var initSaveState = (callback) => {
-    extraFs.copyDir('assets', 'saveState', () => {
+    extraFs.copyRF('assets', 'saveState', (code) => {
+        if (code) {
+            throw code;
+        }
         fs.writeFile('saveState/currentRoom.txt', `${rooms[0]}\n`, 'utf-8', (err) => {
-            // TODO: make all the copied assets proper git directories
-            var root = 'saveState/leverRoom';
-            fs.rename(
-                path.join(root, '/git'), path.join(root, '/.git'), (err) => {
-                if (err) {
-                    throw err;
+            resetCurrentRoom((code) => {
+                if (code) {
+                    throw code;
                 }
                 getRoom(callback);
+            });
+        });
+    });
+};
+
+var resetCurrentRoom = (callback) => {
+    currentRoom((err, roomString) => {
+        var room = `saveState/${rooms[0]}`;
+        extraFs.removeRF(`${room}/.git`, () => {
+            extraFs.copyRF(`${room}/git`, `${room}/.git`, () => {
+                extraFs.copyRF(`${room.replace('saveState', 'assets')}/info.json`, `${room}/`, callback);
             });
         });
     });
@@ -79,8 +90,7 @@ var passesWinCondition = (room) => {
 };
 
 exports.getRoom = getRoom;
+exports.resetCurrentRoom = resetCurrentRoom;
 exports.currentRoom = currentRoom;
 exports.passesWinCondition = passesWinCondition;
-//exports.saveRoom = saveRoom;
-//exports.getCommand = getCommand;
 
