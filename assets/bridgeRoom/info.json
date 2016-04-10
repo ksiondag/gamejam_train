@@ -1,0 +1,22 @@
+{
+  "description": "there is a wall of fire and a vase full of water infront of you. behind the fire is a fallen bridge and a button.  beyond the bridge is a door.",
+  "winningText": "Both levers are pulled! Wow!",
+  "winningState": {
+    "bridge": true,
+    "fire": false
+  },
+  "state": {
+
+
+
+
+
+    "bridge": false,
+
+
+
+
+
+    "fire": true
+  }
+}
