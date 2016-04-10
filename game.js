@@ -1,37 +1,22 @@
 /**
 Game logic and state.
-
-TODO:
-Get current room
 */
 
 // Node libraries in use
 var fs = require('fs');
 
+var extraFs = require('./extra-fs');
+
 var CURRENT_ROOM = 'saveState/currentRoom';
 
 var initSaveState = (callback) => {
-    fs.mkdir('saveState', () => {
-    fs.mkdir('saveState/leverRoom', () => {
-        fs.readFile('assets/leverRoom/info.json', 'utf-8', (err, data) => {
+    extraFs.copyDir('assets', 'saveState', () => {
+        fs.symlink('leverRoom', CURRENT_ROOM, (err) => {
             if (err) {
                 throw err;
             }
-            fs.writeFile('saveState/leverRoom/info.json', data, 'utf-8', (err) => {
-                if (err) {
-                    throw err;
-                }
-                fs.symlink('leverRoom', CURRENT_ROOM, (err) => {
-                    if (err) {
-                        throw err;
-                    }
-                    callback(
-                        JSON.parse(data)
-                    );
-                });
-            });
+            getRoom(callback);
         });
-    });
     });
 };
 
@@ -52,6 +37,21 @@ var saveRoom = (room, callback) => {
 	fs.writeFile(CURRENT_ROOM + '/info.json', JSON.stringify(room, null, '\n\n'), callback);
 };
 
+var getCommand = (room, command) => {
+    var name;
+
+    if (room.commands.hasOwnProperty(command)) {
+        return command;
+    }
+
+    for (name in room.commands) {
+        if (room.commands[name].alias.indexOf(command) !== -1) {
+            return name;
+        }
+    }
+};
+
 exports.getRoom = getRoom;
 exports.saveRoom = saveRoom;
+exports.getCommand = getCommand;
 
