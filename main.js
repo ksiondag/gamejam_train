@@ -108,8 +108,8 @@ var main = () => {
         if (!room) {
         }
 
-        if (game.passesWinCondition(room)) {
-            return main();
+        if (game.passesWinCondition(room, main)) {
+            return;
         }
 
         if (prompts.length > 0) {

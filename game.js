@@ -13,12 +13,19 @@ var rooms = [
     'leverRoom'
 ];
 
+var saveCurrentRoom = (callback) => {
+    fs.writeFile('saveState/currentRoom.txt', `${rooms[0]}\n`, 'utf-8', callback);
+};
+
 var initSaveState = (callback) => {
     extraFs.copyRF('assets', 'saveState', (code) => {
         if (code) {
             throw code;
         }
-        fs.writeFile('saveState/currentRoom.txt', `${rooms[0]}\n`, 'utf-8', (err) => {
+        saveCurrentRoom((err) => {
+            if (err) {
+                throw err;
+            }
             resetCurrentRoom((code) => {
                 if (code) {
                     throw code;
@@ -31,7 +38,7 @@ var initSaveState = (callback) => {
 
 var resetCurrentRoom = (callback) => {
     currentRoom((err, roomString) => {
-        var room = `saveState/${rooms[0]}`;
+        var room = `saveState/${roomString}`;
         extraFs.removeRF(`${room}/.git`, () => {
             extraFs.copyRF(`${room}/git`, `${room}/.git`, () => {
                 extraFs.copyRF(`${room.replace('saveState', 'assets')}/info.json`, `${room}/`, callback);
@@ -76,8 +83,8 @@ var getRoom = (callback) => {
     });
 };
 
-var passesWinCondition = (room) => {
-    var thing;
+var passesWinCondition = (room, callback) => {
+    var thing, updatingRooms;
     for (thing in room.winningState) {
         if (room.winningState[thing] !== room.state[thing]) {
             return false
@@ -85,6 +92,16 @@ var passesWinCondition = (room) => {
     }
 
     console.log(room.winningText);
+
+    updatingRooms = rooms.reverse()
+    updatingRooms.pop();
+    rooms = updatingRooms.reverse();
+
+    if (rooms.length > 0) {
+        saveCurrentRoom(() => {
+            resetCurrentRoom(callback);
+        });
+    }
 
     return true;
 };
