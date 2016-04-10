@@ -28,3 +28,25 @@ aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 4dad1ed1f99f4b1fae6534f03efedbe468559ae
 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 Silent K <silentksionda@gmail.com> 1460259035 -0700	merge left: Fast-forward
 aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 40b976f4bcaf6825a60c508b302bf1c2e5b8f428 Silent K <silentksionda@gmail.com> 1460259039 -0700	merge right: Merge made by the 'recursive' strategy.
 40b976f4bcaf6825a60c508b302bf1c2e5b8f428 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460259120 -0700	checkout: moving from test to master
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 5634c093b535ac2e92cbb4d4c1ad655472582cee Silent K <silentksionda@gmail.com> 1460261549 -0700	commit (amend): Initial state of puzzle
+5634c093b535ac2e92cbb4d4c1ad655472582cee aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 Silent K <silentksionda@gmail.com> 1460261554 -0700	checkout: moving from master to left
+aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 5634c093b535ac2e92cbb4d4c1ad655472582cee Silent K <silentksionda@gmail.com> 1460261564 -0700	rebase -i (start): checkout master
+5634c093b535ac2e92cbb4d4c1ad655472582cee c435e3819e487693a486d089f46a314864d3c35b Silent K <silentksionda@gmail.com> 1460261564 -0700	rebase -i (pick): Pulling left lever.
+c435e3819e487693a486d089f46a314864d3c35b c435e3819e487693a486d089f46a314864d3c35b Silent K <silentksionda@gmail.com> 1460261564 -0700	rebase -i (finish): returning to refs/heads/left
+c435e3819e487693a486d089f46a314864d3c35b 1dc2391ecda8f9f1aa54b93f3b1ead7888fd50ff Silent K <silentksionda@gmail.com> 1460261570 -0700	checkout: moving from left to right
+1dc2391ecda8f9f1aa54b93f3b1ead7888fd50ff 5634c093b535ac2e92cbb4d4c1ad655472582cee Silent K <silentksionda@gmail.com> 1460261575 -0700	rebase -i (start): checkout master
+5634c093b535ac2e92cbb4d4c1ad655472582cee 550d952d92cb1460345453f6ad2a153edbadd659 Silent K <silentksionda@gmail.com> 1460261575 -0700	rebase -i (pick): Pulling right lever.
+550d952d92cb1460345453f6ad2a153edbadd659 550d952d92cb1460345453f6ad2a153edbadd659 Silent K <silentksionda@gmail.com> 1460261576 -0700	rebase -i (finish): returning to refs/heads/right
+550d952d92cb1460345453f6ad2a153edbadd659 5634c093b535ac2e92cbb4d4c1ad655472582cee Silent K <silentksionda@gmail.com> 1460261593 -0700	checkout: moving from right to master
+5634c093b535ac2e92cbb4d4c1ad655472582cee c435e3819e487693a486d089f46a314864d3c35b Silent K <silentksionda@gmail.com> 1460261605 -0700	checkout: moving from master to left
+c435e3819e487693a486d089f46a314864d3c35b 5634c093b535ac2e92cbb4d4c1ad655472582cee Silent K <silentksionda@gmail.com> 1460261627 -0700	checkout: moving from left to master
+5634c093b535ac2e92cbb4d4c1ad655472582cee 29c1a423cf03f5cec856c2871ca336838a678d5e Silent K <silentksionda@gmail.com> 1460267336 -0700	commit (amend): Initial state of puzzle
+29c1a423cf03f5cec856c2871ca336838a678d5e c435e3819e487693a486d089f46a314864d3c35b Silent K <silentksionda@gmail.com> 1460267342 -0700	checkout: moving from master to left
+c435e3819e487693a486d089f46a314864d3c35b 29c1a423cf03f5cec856c2871ca336838a678d5e Silent K <silentksionda@gmail.com> 1460267350 -0700	rebase -i (start): checkout master
+29c1a423cf03f5cec856c2871ca336838a678d5e 8548076dd26357da7a5919de3b9068361c7fa204 Silent K <silentksionda@gmail.com> 1460267350 -0700	rebase -i (pick): Pulling left lever.
+8548076dd26357da7a5919de3b9068361c7fa204 8548076dd26357da7a5919de3b9068361c7fa204 Silent K <silentksionda@gmail.com> 1460267350 -0700	rebase -i (finish): returning to refs/heads/left
+8548076dd26357da7a5919de3b9068361c7fa204 550d952d92cb1460345453f6ad2a153edbadd659 Silent K <silentksionda@gmail.com> 1460267353 -0700	checkout: moving from left to right
+550d952d92cb1460345453f6ad2a153edbadd659 29c1a423cf03f5cec856c2871ca336838a678d5e Silent K <silentksionda@gmail.com> 1460267356 -0700	rebase -i (start): checkout master
+29c1a423cf03f5cec856c2871ca336838a678d5e 2f54d3efd483f90892644063c1f8d176be03a262 Silent K <silentksionda@gmail.com> 1460267356 -0700	rebase -i (pick): Pulling right lever.
+2f54d3efd483f90892644063c1f8d176be03a262 2f54d3efd483f90892644063c1f8d176be03a262 Silent K <silentksionda@gmail.com> 1460267356 -0700	rebase -i (finish): returning to refs/heads/right
+2f54d3efd483f90892644063c1f8d176be03a262 29c1a423cf03f5cec856c2871ca336838a678d5e Silent K <silentksionda@gmail.com> 1460267358 -0700	checkout: moving from right to master

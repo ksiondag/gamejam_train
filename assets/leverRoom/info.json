@@ -12,6 +12,11 @@
       ]
     }
   },
+  "winningState": {
+    "left lever": true,
+    "right lever": true
+  },
+  "winningText": "Both levers are pulled! Wow!",
   "state": {
 
 
