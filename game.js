@@ -15,7 +15,12 @@ var initSaveState = (callback) => {
             if (err) {
                 throw err;
             }
-            getRoom(callback);
+            fs.rename(CURRENT_ROOM + '/git', CURRENT_ROOM + '/.git', (err) => {
+                if (err) {
+                    throw err;
+                }
+                getRoom(callback);
+            })
         });
     });
 };

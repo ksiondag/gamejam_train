@@ -1,0 +1,30 @@
+0000000000000000000000000000000000000000 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460255860 -0700	commit (initial): Initial state of puzzle
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460255997 -0700	checkout: moving from master to left
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460256021 -0700	checkout: moving from left to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460256025 -0700	checkout: moving from master to left
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 d1e914b27ebba2aa53235114b7a2feb0e2dce1bd Silent K <silentksionda@gmail.com> 1460256036 -0700	commit: Left lever pulled
+d1e914b27ebba2aa53235114b7a2feb0e2dce1bd a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460256472 -0700	checkout: moving from left to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 d1e914b27ebba2aa53235114b7a2feb0e2dce1bd Silent K <silentksionda@gmail.com> 1460256516 -0700	checkout: moving from master to left
+d1e914b27ebba2aa53235114b7a2feb0e2dce1bd a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258613 -0700	checkout: moving from left to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258783 -0700	checkout: moving from master to left
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 58e6d5d23d9d7799730905ea301dd0f2d1f400f3 Silent K <silentksionda@gmail.com> 1460258809 -0700	commit: Pulling left lever.
+58e6d5d23d9d7799730905ea301dd0f2d1f400f3 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258828 -0700	checkout: moving from left to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258832 -0700	checkout: moving from master to right
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 0f7e354292fcec61c3b38ff9ae2eedf9d9fa5511 Silent K <silentksionda@gmail.com> 1460258844 -0700	commit: Pulling right lever.
+0f7e354292fcec61c3b38ff9ae2eedf9d9fa5511 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258870 -0700	checkout: moving from right to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258873 -0700	checkout: moving from master to test
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 58e6d5d23d9d7799730905ea301dd0f2d1f400f3 Silent K <silentksionda@gmail.com> 1460258880 -0700	merge left: Fast-forward
+58e6d5d23d9d7799730905ea301dd0f2d1f400f3 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258914 -0700	checkout: moving from test to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 0f7e354292fcec61c3b38ff9ae2eedf9d9fa5511 Silent K <silentksionda@gmail.com> 1460258926 -0700	checkout: moving from master to right
+0f7e354292fcec61c3b38ff9ae2eedf9d9fa5511 a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 Silent K <silentksionda@gmail.com> 1460258933 -0700	checkout: moving from right to master
+a1381bf8dae4f01c21dc10f0ebbaf640a2cd6620 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460258953 -0700	commit (amend): Initial state of puzzle
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460258973 -0700	checkout: moving from master to left
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 Silent K <silentksionda@gmail.com> 1460258990 -0700	commit: Pulling left lever.
+aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460258993 -0700	checkout: moving from left to master
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460258996 -0700	checkout: moving from master to right
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 1dc2391ecda8f9f1aa54b93f3b1ead7888fd50ff Silent K <silentksionda@gmail.com> 1460259007 -0700	commit: Pulling right lever.
+1dc2391ecda8f9f1aa54b93f3b1ead7888fd50ff 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460259015 -0700	checkout: moving from right to master
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460259033 -0700	checkout: moving from master to test
+4dad1ed1f99f4b1fae6534f03efedbe468559ae8 aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 Silent K <silentksionda@gmail.com> 1460259035 -0700	merge left: Fast-forward
+aae4876f7150ed33b0e5c99eeb9f206bc65fdb70 40b976f4bcaf6825a60c508b302bf1c2e5b8f428 Silent K <silentksionda@gmail.com> 1460259039 -0700	merge right: Merge made by the 'recursive' strategy.
+40b976f4bcaf6825a60c508b302bf1c2e5b8f428 4dad1ed1f99f4b1fae6534f03efedbe468559ae8 Silent K <silentksionda@gmail.com> 1460259120 -0700	checkout: moving from test to master
