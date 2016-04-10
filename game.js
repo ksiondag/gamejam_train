@@ -9,6 +9,7 @@ var path = require('path');
 var extraFs = require('./extra-fs');
 
 var rooms = [
+    'basicRoom',
     'bridgeRoom',
     'leverRoom'
 ];
