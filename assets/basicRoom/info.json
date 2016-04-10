@@ -1,0 +1,14 @@
+{
+  "winningText": "  With the button pushed the door ahead clicks open, and you move on to the next car.",
+  "winningState": {
+    "button": true
+  },
+  "state": {
+
+
+
+
+
+    "button": false
+  }
+}
