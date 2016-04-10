@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460304893 -0700	commit (initial): There is a locked door on the other side of the room. There is a button on the ground that looks like someone could push it.
+59e030dff6b41aefe1dd15f51e823b47e2e3f370 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460305073 -0700	checkout: moving from master to button_pushed
+59e030dff6b41aefe1dd15f51e823b47e2e3f370 699846a3c2ab84b28000f3e741063b7386d43bb3 Isaac <iplunkett@localhost.localdomain> 1460305115 -0700	commit: you should never see this because this room is an instant win.
+699846a3c2ab84b28000f3e741063b7386d43bb3 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460305238 -0700	checkout: moving from button_pushed to master
