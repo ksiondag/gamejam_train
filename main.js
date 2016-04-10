@@ -15,10 +15,11 @@ var commands = {
 
 Seriously, though, here are some commands:
     help: prints this prompt
-    quit: exits the game
-    whereami: get some information on where you are
+    quit: jump off the train (exits the game)
+    describe: get some information on where you are
     history: find out what's been done in this place
     realities: find out what parallel realities exist
+    warp: change realities
     merge: merge another reality with the current one
 `
         );
@@ -28,7 +29,7 @@ Seriously, though, here are some commands:
         rl.close();
         process.exit(0);
     },
-    whereami: function (room, callback) {
+    describe: function (room, callback) {
         console.log(room.description);
         callback();
     },
@@ -44,6 +45,14 @@ Seriously, though, here are some commands:
         game.currentRoom((err, roomString) => {
             git.branch(path.join('saveState', roomString), (code, data) => {
                 console.log(`${data}`);
+                callback();
+            });
+        });
+    },
+    warp: function (room, reality, callback) {
+        game.currentRoom((err, roomString) => {
+            git.checkout(path.join('saveState', roomString), reality, (code) => {
+                console.log(`Warped to reality ${reality}.`);
                 callback();
             });
         });
