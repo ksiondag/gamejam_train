@@ -77,3 +77,33 @@ f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb 5cc0a7501a4a3fa89d27ff185180d35e6abc2c6
 6912d15ee418a9c2b1b35b55615b2d5133291180 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273654 -0700	checkout: moving from left to failed_both_levers
 6912d15ee418a9c2b1b35b55615b2d5133291180 dd922c63dbf7dd8aacba97a2cd919e42dea6c233 Silent K <silentksionda@gmail.com> 1460273725 -0700	commit: Pulling on right led to left lever going off again
 dd922c63dbf7dd8aacba97a2cd919e42dea6c233 f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb Silent K <silentksionda@gmail.com> 1460273870 -0700	checkout: moving from failed_both_levers to master
+f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb c6b8910bc92b2a0126fa5529ece9fec5e324ce0d Silent K <silentksionda@gmail.com> 1460276631 -0700	commit (amend): You are in a mostly empty car. There are two levers, one attached to the
+c6b8910bc92b2a0126fa5529ece9fec5e324ce0d 0e681cc958619b7332b725a659ef64f64d64ee26 Silent K <silentksionda@gmail.com> 1460276719 -0700	checkout: moving from start to partial_right
+0e681cc958619b7332b725a659ef64f64d64ee26 c6b8910bc92b2a0126fa5529ece9fec5e324ce0d Silent K <silentksionda@gmail.com> 1460276725 -0700	rebase -i (start): checkout start
+c6b8910bc92b2a0126fa5529ece9fec5e324ce0d a5986799a124366151f520f72b5b4d7998589308 Silent K <silentksionda@gmail.com> 1460276726 -0700	rebase -i (pick): Pulling the right lever on down.
+a5986799a124366151f520f72b5b4d7998589308 a5986799a124366151f520f72b5b4d7998589308 Silent K <silentksionda@gmail.com> 1460276726 -0700	rebase -i (finish): returning to refs/heads/partial_right
+a5986799a124366151f520f72b5b4d7998589308 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460276848 -0700	checkout: moving from partial_right to partial_left
+6912d15ee418a9c2b1b35b55615b2d5133291180 c6b8910bc92b2a0126fa5529ece9fec5e324ce0d Silent K <silentksionda@gmail.com> 1460276853 -0700	rebase -i (start): checkout start
+c6b8910bc92b2a0126fa5529ece9fec5e324ce0d 294493f507e216b00f336fcd2731088ae66ec8e4 Silent K <silentksionda@gmail.com> 1460276854 -0700	rebase -i (pick): Pulling the left lever into the "on" position
+294493f507e216b00f336fcd2731088ae66ec8e4 294493f507e216b00f336fcd2731088ae66ec8e4 Silent K <silentksionda@gmail.com> 1460276854 -0700	rebase -i (finish): returning to refs/heads/partial_left
+294493f507e216b00f336fcd2731088ae66ec8e4 dd922c63dbf7dd8aacba97a2cd919e42dea6c233 Silent K <silentksionda@gmail.com> 1460276869 -0700	checkout: moving from partial_left to failed_both_levers
+dd922c63dbf7dd8aacba97a2cd919e42dea6c233 c6b8910bc92b2a0126fa5529ece9fec5e324ce0d Silent K <silentksionda@gmail.com> 1460276884 -0700	rebase -i (start): checkout start
+c6b8910bc92b2a0126fa5529ece9fec5e324ce0d b102701b79b11b19e37a77ccddef103058d9eac2 Silent K <silentksionda@gmail.com> 1460276884 -0700	rebase -i (pick): Pulling the left lever into the "on" position
+b102701b79b11b19e37a77ccddef103058d9eac2 374a1db99d14e15efab168d05fcc978048b1cd76 Silent K <silentksionda@gmail.com> 1460276884 -0700	rebase -i (pick): Pulling on right led to left lever going off again
+374a1db99d14e15efab168d05fcc978048b1cd76 374a1db99d14e15efab168d05fcc978048b1cd76 Silent K <silentksionda@gmail.com> 1460276884 -0700	rebase -i (finish): returning to refs/heads/failed_both_levers
+374a1db99d14e15efab168d05fcc978048b1cd76 c6b8910bc92b2a0126fa5529ece9fec5e324ce0d Silent K <silentksionda@gmail.com> 1460276930 -0700	checkout: moving from failed_both_levers to start
+c6b8910bc92b2a0126fa5529ece9fec5e324ce0d aa6f10e9f4f88ec1dd110579d1988431032f28c5 Silent K <silentksionda@gmail.com> 1460277166 -0700	commit (amend): You are in a mostly empty car. There are two levers, one attached to the
+aa6f10e9f4f88ec1dd110579d1988431032f28c5 a5986799a124366151f520f72b5b4d7998589308 Silent K <silentksionda@gmail.com> 1460277173 -0700	checkout: moving from start to partial_right
+a5986799a124366151f520f72b5b4d7998589308 aa6f10e9f4f88ec1dd110579d1988431032f28c5 Silent K <silentksionda@gmail.com> 1460277181 -0700	rebase -i (start): checkout start
+aa6f10e9f4f88ec1dd110579d1988431032f28c5 05282568a013c9b7c9b15051ec74de9375ca3aea Silent K <silentksionda@gmail.com> 1460277181 -0700	rebase -i (pick): Pulling the right lever on down.
+05282568a013c9b7c9b15051ec74de9375ca3aea 05282568a013c9b7c9b15051ec74de9375ca3aea Silent K <silentksionda@gmail.com> 1460277181 -0700	rebase -i (finish): returning to refs/heads/partial_right
+05282568a013c9b7c9b15051ec74de9375ca3aea 294493f507e216b00f336fcd2731088ae66ec8e4 Silent K <silentksionda@gmail.com> 1460277186 -0700	checkout: moving from partial_right to partial_left
+294493f507e216b00f336fcd2731088ae66ec8e4 aa6f10e9f4f88ec1dd110579d1988431032f28c5 Silent K <silentksionda@gmail.com> 1460277190 -0700	rebase -i (start): checkout start
+aa6f10e9f4f88ec1dd110579d1988431032f28c5 a29ffa1494923f90478c53c39bbbd2cc8007e9ce Silent K <silentksionda@gmail.com> 1460277190 -0700	rebase -i (pick): Pulling the left lever into the "on" position
+a29ffa1494923f90478c53c39bbbd2cc8007e9ce a29ffa1494923f90478c53c39bbbd2cc8007e9ce Silent K <silentksionda@gmail.com> 1460277191 -0700	rebase -i (finish): returning to refs/heads/partial_left
+a29ffa1494923f90478c53c39bbbd2cc8007e9ce 374a1db99d14e15efab168d05fcc978048b1cd76 Silent K <silentksionda@gmail.com> 1460277194 -0700	checkout: moving from partial_left to failed_both_levers
+374a1db99d14e15efab168d05fcc978048b1cd76 aa6f10e9f4f88ec1dd110579d1988431032f28c5 Silent K <silentksionda@gmail.com> 1460277197 -0700	rebase -i (start): checkout start
+aa6f10e9f4f88ec1dd110579d1988431032f28c5 f093ddb82aea00a40f54ee01ffcdfe55b1aef5af Silent K <silentksionda@gmail.com> 1460277197 -0700	rebase -i (pick): Pulling the left lever into the "on" position
+f093ddb82aea00a40f54ee01ffcdfe55b1aef5af ed17037e730a40cf731294398fd0bda25de8292e Silent K <silentksionda@gmail.com> 1460277197 -0700	rebase -i (pick): Pulling on right led to left lever going off again
+ed17037e730a40cf731294398fd0bda25de8292e ed17037e730a40cf731294398fd0bda25de8292e Silent K <silentksionda@gmail.com> 1460277198 -0700	rebase -i (finish): returning to refs/heads/failed_both_levers
+ed17037e730a40cf731294398fd0bda25de8292e aa6f10e9f4f88ec1dd110579d1988431032f28c5 Silent K <silentksionda@gmail.com> 1460277259 -0700	checkout: moving from failed_both_levers to start

@@ -33,7 +33,7 @@ var commit = (repoDir, message, callback) => {
 };
 
 var log = (repoDir, callback) => {
-    exec(`git log`, {cwd: repoDir}, callback);
+    exec(`git log --reverse`, {cwd: repoDir}, callback);
 };
 
 var branch = (repoDir, callback) => {

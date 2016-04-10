@@ -1,2 +1,4 @@
 0000000000000000000000000000000000000000 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273654 -0700	branch: Created from HEAD
 6912d15ee418a9c2b1b35b55615b2d5133291180 dd922c63dbf7dd8aacba97a2cd919e42dea6c233 Silent K <silentksionda@gmail.com> 1460273725 -0700	commit: Pulling on right led to left lever going off again
+dd922c63dbf7dd8aacba97a2cd919e42dea6c233 374a1db99d14e15efab168d05fcc978048b1cd76 Silent K <silentksionda@gmail.com> 1460276884 -0700	rebase -i (finish): refs/heads/failed_both_levers onto c6b8910bc92b2a0126fa5529ece9fec5e324ce0d
+374a1db99d14e15efab168d05fcc978048b1cd76 ed17037e730a40cf731294398fd0bda25de8292e Silent K <silentksionda@gmail.com> 1460277198 -0700	rebase -i (finish): refs/heads/failed_both_levers onto aa6f10e9f4f88ec1dd110579d1988431032f28c5

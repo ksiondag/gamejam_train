@@ -11,16 +11,16 @@ var git = require('./git');
 var commands = {
     help: function (room, callback) {
         console.log(
-`You asked for help! Yay!
+`    You asked for help! Yay!
 
-Seriously, though, here are some commands:
-    help: prints this prompt
-    quit: jump off the train (exits the game)
-    describe: get some information on where you are
-    history: find out what's been done in this place
-    realities: find out what parallel realities exist
-    warp: change realities
-    merge: merge another reality with the current one
+    Seriously, though, here are some commands:
+        help: prints this prompt
+        quit: jump off the train (exits the game)
+        describe: get some information on where you are
+                  and find out what's been done so far
+        realities: find out what parallel realities exist
+        warp: change realities
+        merge: merge another reality with the current one
 `
         );
         callback();
@@ -29,21 +29,29 @@ Seriously, though, here are some commands:
         rl.close();
         process.exit(0);
     },
+    /*
     describe: function (room, callback) {
         console.log(room.description);
         callback();
     },
-    history: function (room, callback) {
+    */
+    describe: function (room, callback) {
         game.currentRoom((err, roomString) => {
-            git.log(path.join('saveState', roomString), (code, data) => {
-                console.log(`${data}`);
+            git.log(path.join('saveState', roomString), (err, data) => {
+                var editedData;
+
+                editedData = data;
+                editedData = editedData.replace(/\nAuthor.*\n/g, '\n');
+                editedData = editedData.replace(/^commit/g, '    moment');
+                editedData = editedData.replace(/\nDate.*\n/g, '\n');
+                console.log(`${editedData}`);
                 callback();
             });
         });
     },
     realities: function (room, callback) {
         game.currentRoom((err, roomString) => {
-            git.branch(path.join('saveState', roomString), (code, data) => {
+            git.branch(path.join('saveState', roomString), (err, data) => {
                 console.log(`${data}`);
                 callback();
             });
@@ -51,16 +59,20 @@ Seriously, though, here are some commands:
     },
     warp: function (room, reality, callback) {
         game.currentRoom((err, roomString) => {
-            git.checkout(path.join('saveState', roomString), reality, (code) => {
-                console.log(`Warped to reality ${reality}.`);
+            git.checkout(path.join('saveState', roomString), reality, (err) => {
+                console.log(`    Warped to reality "${reality}".`);
                 callback();
             });
         });
     },
     merge: function (room, reality, callback) {
         game.currentRoom((err, roomString) => {
-            git.merge(path.join('saveState', roomString), reality, (code, data) => {
-                console.log(`Reality ${reality} merged.`);
+            git.merge(path.join('saveState', roomString), reality, (err, data) => {
+                if (err) {
+                    console.log(`    No reality "${reality}" to merge with.`);
+                } else {
+                    console.log(`    Merging into reality "${reality}".`);
+                }
                 callback();
             });
         });

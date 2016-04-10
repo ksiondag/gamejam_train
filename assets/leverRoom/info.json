@@ -1,6 +1,5 @@
 {
-  "description": "You are in a mostly empty car. There are two levers, one attached to the right wall, and the other attached to the left wall. Both are set to an \"off\" position.",
-  "winningText": "With both levers in the \"on\" position, the door ahead clicks open, and you move on to the next car.",
+  "winningText": "  With both levers in the \"on\" position, the door ahead clicks open, and\n  you move on to the next car.",
   "winningState": {
     "left lever": true,
     "right lever": true

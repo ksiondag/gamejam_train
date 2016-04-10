@@ -6,3 +6,5 @@ c435e3819e487693a486d089f46a314864d3c35b 8548076dd26357da7a5919de3b9068361c7fa20
 0fb2aceb56b5d1cbc068dad43a691db97062cef4 cf7984999d3cc8920c119e4cb9838e169789a977 Silent K <silentksionda@gmail.com> 1460273399 -0700	rebase -i (finish): refs/heads/left onto f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb
 cf7984999d3cc8920c119e4cb9838e169789a977 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273407 -0700	commit (amend): Pulling the left lever into the "on" position
 6912d15ee418a9c2b1b35b55615b2d5133291180 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273887 -0700	Branch: renamed refs/heads/left to refs/heads/partial_left
+6912d15ee418a9c2b1b35b55615b2d5133291180 294493f507e216b00f336fcd2731088ae66ec8e4 Silent K <silentksionda@gmail.com> 1460276854 -0700	rebase -i (finish): refs/heads/partial_left onto c6b8910bc92b2a0126fa5529ece9fec5e324ce0d
+294493f507e216b00f336fcd2731088ae66ec8e4 a29ffa1494923f90478c53c39bbbd2cc8007e9ce Silent K <silentksionda@gmail.com> 1460277191 -0700	rebase -i (finish): refs/heads/partial_left onto aa6f10e9f4f88ec1dd110579d1988431032f28c5
