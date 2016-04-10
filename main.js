@@ -133,6 +133,13 @@ var main = () => {
     });
 };
 
+var quit = function () {
+        rl.close();
+        process.exit(0);
+    }
+
+exports.quit = quit;
+
 if (require.main === module) {
     main();
 }

@@ -103,6 +103,11 @@ var passesWinCondition = (room, callback) => {
             resetCurrentRoom(callback);
         });
     }
+    else
+    {
+    	console.log('You won the game.');
+    	require('./main').quit();
+    }
 
     return true;
 };
