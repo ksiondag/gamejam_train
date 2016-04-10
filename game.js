@@ -14,7 +14,7 @@ var rooms = [
 
 var initSaveState = (callback) => {
     extraFs.copyDir('assets', 'saveState', () => {
-        fs.writeFile('assets/currentRoom.txt', `${rooms[0]}\n`, 'utf-8', (err) => {
+        fs.writeFile('saveState/currentRoom.txt', `${rooms[0]}\n`, 'utf-8', (err) => {
             // TODO: make all the copied assets proper git directories
             var root = 'saveState/leverRoom';
             fs.rename(
