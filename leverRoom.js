@@ -4,6 +4,15 @@ var index = require('./index');
 var leverR;
 var leverL;
 
+//turns commands into functons
+function doCommand(command, args)
+{
+	if (command === 'flip')
+		flipLever(args);
+	else
+		console.log('I don\'t know what you mean');
+}
+
 //flip levers and save the state of the room
 function flipLever(str)
 {
@@ -17,6 +26,8 @@ function flipLever(str)
 		leverR= leverR ? false : true;
 		leverL=false;
 	}
+	else
+		console.log('unknown lever');
 	
 	game.getRoom((room) => {
         room.state['left lever'] = leverL;
@@ -27,7 +38,7 @@ function flipLever(str)
 }
 
 //prints the state of the levers, true is up, false is down
-function printLevers()
+function printStatus()
 {
 	var str1 = leverL ? 'up' : 'down';
 	var str2 = leverR ? 'up' : 'down';
@@ -35,7 +46,7 @@ function printLevers()
 }
 
 //make a new lever room
-function makeLever()
+function makeRoom()
 {
 	//attempt to read from a file
 	game.getRoom((room) => {
@@ -48,6 +59,6 @@ function makeLever()
 });
 }
 
-exports.makeLever = makeLever;
-exports.printLevers = printLevers;
-exports.flipLever = flipLever;
+exports.makeRoom = makeRoom;
+exports.printStatus = printStatus;
+exports.doCommand = doCommand;
