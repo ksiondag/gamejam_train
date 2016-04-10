@@ -10,8 +10,8 @@ var extraFs = require('./extra-fs');
 
 var rooms = [
     'basicRoom',
-    'bridgeRoom',
-    'leverRoom'
+    'leverRoom',
+    'bridgeRoom'
 ];
 
 var saveCurrentRoom = (callback) => {
