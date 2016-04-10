@@ -1,0 +1,40 @@
+0000000000000000000000000000000000000000 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460297713 -0700	commit (initial): There is a wall of fire in front of you. Behind the fire is a lowered
+1714a9e8f4df27e6a62bce636d33eef43919ea2b 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460298144 -0700	checkout: moving from master to pour_out_vase_on_fire
+1714a9e8f4df27e6a62bce636d33eef43919ea2b 5a9e3acd983de34a6d62ad7772e421a8b01bdb77 Silent K <silentksionda@gmail.com> 1460298276 -0700	commit: I have poured the water out of the vase and on to the fire,
+5a9e3acd983de34a6d62ad7772e421a8b01bdb77 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460298565 -0700	checkout: moving from pour_out_vase_on_fire to master
+1714a9e8f4df27e6a62bce636d33eef43919ea2b 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460298581 -0700	checkout: moving from master to water_vase_on_button
+1714a9e8f4df27e6a62bce636d33eef43919ea2b fe4b9c1bfcaea40981093c4b24034e351be3703b Silent K <silentksionda@gmail.com> 1460298653 -0700	commit: Putting the water vase on the button has successfully depressed it.
+fe4b9c1bfcaea40981093c4b24034e351be3703b 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460298934 -0700	checkout: moving from water_vase_on_button to master
+1714a9e8f4df27e6a62bce636d33eef43919ea2b 48f0d0c485785094e1fcc160620a294279241ba5 Silent K <silentksionda@gmail.com> 1460299067 -0700	commit (amend): There is a wall of fire in front of you. Behind the fire is a lowered
+48f0d0c485785094e1fcc160620a294279241ba5 5a9e3acd983de34a6d62ad7772e421a8b01bdb77 Silent K <silentksionda@gmail.com> 1460299081 -0700	checkout: moving from master to pour_out_vase_on_fire
+5a9e3acd983de34a6d62ad7772e421a8b01bdb77 48f0d0c485785094e1fcc160620a294279241ba5 Silent K <silentksionda@gmail.com> 1460299091 -0700	rebase -i (start): checkout master
+48f0d0c485785094e1fcc160620a294279241ba5 f55953249818c00ab33902dd6839adf15ba586e0 Silent K <silentksionda@gmail.com> 1460299091 -0700	rebase -i (pick): I have poured the water out of the vase and on to the fire,
+f55953249818c00ab33902dd6839adf15ba586e0 f55953249818c00ab33902dd6839adf15ba586e0 Silent K <silentksionda@gmail.com> 1460299091 -0700	rebase -i (finish): returning to refs/heads/pour_out_vase_on_fire
+f55953249818c00ab33902dd6839adf15ba586e0 fe4b9c1bfcaea40981093c4b24034e351be3703b Silent K <silentksionda@gmail.com> 1460299169 -0700	checkout: moving from pour_out_vase_on_fire to water_vase_on_button
+fe4b9c1bfcaea40981093c4b24034e351be3703b 48f0d0c485785094e1fcc160620a294279241ba5 Silent K <silentksionda@gmail.com> 1460299175 -0700	rebase -i (start): checkout start
+48f0d0c485785094e1fcc160620a294279241ba5 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460299238 -0700	rebase -i (continue): Putting the water vase on the button has successfully depressed it.
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460299240 -0700	rebase -i (finish): returning to refs/heads/water_vase_on_button
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460299312 -0700	checkout: moving from water_vase_on_button to stuck_on_vase
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 fe7ac8bea50de71d653205eb52cfdc793df33006 Silent K <silentksionda@gmail.com> 1460299420 -0700	commit: Well, the fire's out and the button is pressed, so the bridge is raised.
+fe7ac8bea50de71d653205eb52cfdc793df33006 48f0d0c485785094e1fcc160620a294279241ba5 Silent K <silentksionda@gmail.com> 1460299974 -0700	checkout: moving from standing_on_button to start
+48f0d0c485785094e1fcc160620a294279241ba5 fd8d91ef6a3ad8c488f18f7e12037f547882c47d Silent K <silentksionda@gmail.com> 1460300080 -0700	commit (amend): There is a wall of fire in front of you. Behind the fire is a lowered
+fd8d91ef6a3ad8c488f18f7e12037f547882c47d f55953249818c00ab33902dd6839adf15ba586e0 Silent K <silentksionda@gmail.com> 1460300097 -0700	checkout: moving from start to pour_out_vase_on_fire
+f55953249818c00ab33902dd6839adf15ba586e0 fd8d91ef6a3ad8c488f18f7e12037f547882c47d Silent K <silentksionda@gmail.com> 1460300105 -0700	rebase -i (start): checkout start
+fd8d91ef6a3ad8c488f18f7e12037f547882c47d fc15783dbb9a8de0ff407968ff96a10d4c4f9826 Silent K <silentksionda@gmail.com> 1460300105 -0700	rebase -i (pick): I have poured the water out of the vase and on to the fire,
+fc15783dbb9a8de0ff407968ff96a10d4c4f9826 fc15783dbb9a8de0ff407968ff96a10d4c4f9826 Silent K <silentksionda@gmail.com> 1460300105 -0700	rebase -i (finish): returning to refs/heads/pour_out_vase_on_fire
+fc15783dbb9a8de0ff407968ff96a10d4c4f9826 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460300118 -0700	checkout: moving from pour_out_vase_on_fire to water_vase_on_button
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 fd8d91ef6a3ad8c488f18f7e12037f547882c47d Silent K <silentksionda@gmail.com> 1460300129 -0700	rebase -i (start): checkout start
+fd8d91ef6a3ad8c488f18f7e12037f547882c47d e974460975ef3a8eada52011fec5b18151c176c1 Silent K <silentksionda@gmail.com> 1460300129 -0700	rebase -i (pick): Putting the water vase on the button has successfully depressed it.
+e974460975ef3a8eada52011fec5b18151c176c1 e974460975ef3a8eada52011fec5b18151c176c1 Silent K <silentksionda@gmail.com> 1460300129 -0700	rebase -i (finish): returning to refs/heads/water_vase_on_button
+e974460975ef3a8eada52011fec5b18151c176c1 fe7ac8bea50de71d653205eb52cfdc793df33006 Silent K <silentksionda@gmail.com> 1460300148 -0700	checkout: moving from water_vase_on_button to standing_on_button
+fe7ac8bea50de71d653205eb52cfdc793df33006 e974460975ef3a8eada52011fec5b18151c176c1 Silent K <silentksionda@gmail.com> 1460300180 -0700	rebase -i (start): checkout water_vase_on_button
+e974460975ef3a8eada52011fec5b18151c176c1 25eed0a6cc980935045374401cd90a7e02128280 Silent K <silentksionda@gmail.com> 1460300207 -0700	rebase -i (continue): Well, the fire's out and the button is pressed, so the bridge is raised.
+25eed0a6cc980935045374401cd90a7e02128280 25eed0a6cc980935045374401cd90a7e02128280 Silent K <silentksionda@gmail.com> 1460300211 -0700	rebase -i (finish): returning to refs/heads/standing_on_button
+25eed0a6cc980935045374401cd90a7e02128280 e974460975ef3a8eada52011fec5b18151c176c1 Silent K <silentksionda@gmail.com> 1460300254 -0700	checkout: moving from standing_on_button to water_vase_on_button
+e974460975ef3a8eada52011fec5b18151c176c1 5f1bdabcbf399e882e09a1f822c959e348445a34 Silent K <silentksionda@gmail.com> 1460300257 -0700	commit (amend): Putting the water vase on the button has successfully depressed it.
+5f1bdabcbf399e882e09a1f822c959e348445a34 25eed0a6cc980935045374401cd90a7e02128280 Silent K <silentksionda@gmail.com> 1460300357 -0700	checkout: moving from water_vase_on_button to standing_on_button
+25eed0a6cc980935045374401cd90a7e02128280 5f1bdabcbf399e882e09a1f822c959e348445a34 Silent K <silentksionda@gmail.com> 1460300377 -0700	rebase -i (start): checkout water_vase_on_button
+5f1bdabcbf399e882e09a1f822c959e348445a34 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300377 -0700	rebase -i (pick): Well, the fire's out and the button is pressed, so the bridge is raised.
+336847fe63121b9d96b349257f55e01ccd21d872 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300377 -0700	rebase -i (finish): returning to refs/heads/standing_on_button
+336847fe63121b9d96b349257f55e01ccd21d872 5f1bdabcbf399e882e09a1f822c959e348445a34 Silent K <silentksionda@gmail.com> 1460300391 -0700	checkout: moving from standing_on_button to water_vase_on_button
+5f1bdabcbf399e882e09a1f822c959e348445a34 fd8d91ef6a3ad8c488f18f7e12037f547882c47d Silent K <silentksionda@gmail.com> 1460300509 -0700	checkout: moving from water_vase_on_button to start

@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 1714a9e8f4df27e6a62bce636d33eef43919ea2b Silent K <silentksionda@gmail.com> 1460298144 -0700	branch: Created from HEAD
+1714a9e8f4df27e6a62bce636d33eef43919ea2b 5a9e3acd983de34a6d62ad7772e421a8b01bdb77 Silent K <silentksionda@gmail.com> 1460298276 -0700	commit: I have poured the water out of the vase and on to the fire,
+5a9e3acd983de34a6d62ad7772e421a8b01bdb77 f55953249818c00ab33902dd6839adf15ba586e0 Silent K <silentksionda@gmail.com> 1460299091 -0700	rebase -i (finish): refs/heads/pour_out_vase_on_fire onto 48f0d0c485785094e1fcc160620a294279241ba5
+f55953249818c00ab33902dd6839adf15ba586e0 fc15783dbb9a8de0ff407968ff96a10d4c4f9826 Silent K <silentksionda@gmail.com> 1460300105 -0700	rebase -i (finish): refs/heads/pour_out_vase_on_fire onto fd8d91ef6a3ad8c488f18f7e12037f547882c47d

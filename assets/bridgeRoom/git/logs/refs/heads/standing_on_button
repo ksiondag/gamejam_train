@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460299312 -0700	branch: Created from HEAD
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 Silent K <silentksionda@gmail.com> 1460299328 -0700	Branch: renamed refs/heads/stuck_on_vase to refs/heads/stuck_on_button
+d8cd3d71d50ef9e144ca1f1e9c5312e8348977d7 fe7ac8bea50de71d653205eb52cfdc793df33006 Silent K <silentksionda@gmail.com> 1460299420 -0700	commit: Well, the fire's out and the button is pressed, so the bridge is raised.
+fe7ac8bea50de71d653205eb52cfdc793df33006 fe7ac8bea50de71d653205eb52cfdc793df33006 Silent K <silentksionda@gmail.com> 1460299885 -0700	Branch: renamed refs/heads/stuck_on_button to refs/heads/standing_on_button
+fe7ac8bea50de71d653205eb52cfdc793df33006 25eed0a6cc980935045374401cd90a7e02128280 Silent K <silentksionda@gmail.com> 1460300211 -0700	rebase -i (finish): refs/heads/standing_on_button onto e974460975ef3a8eada52011fec5b18151c176c1
+25eed0a6cc980935045374401cd90a7e02128280 336847fe63121b9d96b349257f55e01ccd21d872 Silent K <silentksionda@gmail.com> 1460300377 -0700	rebase -i (finish): refs/heads/standing_on_button onto 5f1bdabcbf399e882e09a1f822c959e348445a34
