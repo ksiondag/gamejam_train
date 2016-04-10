@@ -60,3 +60,20 @@ c435e3819e487693a486d089f46a314864d3c35b 29c1a423cf03f5cec856c2871ca336838a678d5
 3a761da673a4d847e54a043908455be996f57468 cb54b17a82ce6c03272b867c870c8900d592ac5d Silent K <silentksionda@gmail.com> 1460271087 -0700	rebase -i (pick): Pulling right lever.
 cb54b17a82ce6c03272b867c870c8900d592ac5d cb54b17a82ce6c03272b867c870c8900d592ac5d Silent K <silentksionda@gmail.com> 1460271087 -0700	rebase -i (finish): returning to refs/heads/right
 cb54b17a82ce6c03272b867c870c8900d592ac5d 3a761da673a4d847e54a043908455be996f57468 Silent K <silentksionda@gmail.com> 1460271090 -0700	checkout: moving from right to master
+3a761da673a4d847e54a043908455be996f57468 f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb Silent K <silentksionda@gmail.com> 1460273099 -0700	commit (amend): Timey-whimey magic necessity should begin now
+f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb 0fb2aceb56b5d1cbc068dad43a691db97062cef4 Silent K <silentksionda@gmail.com> 1460273393 -0700	checkout: moving from master to left
+0fb2aceb56b5d1cbc068dad43a691db97062cef4 f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb Silent K <silentksionda@gmail.com> 1460273399 -0700	rebase -i (start): checkout master
+f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb cf7984999d3cc8920c119e4cb9838e169789a977 Silent K <silentksionda@gmail.com> 1460273399 -0700	rebase -i (pick): Pulling left lever.
+cf7984999d3cc8920c119e4cb9838e169789a977 cf7984999d3cc8920c119e4cb9838e169789a977 Silent K <silentksionda@gmail.com> 1460273399 -0700	rebase -i (finish): returning to refs/heads/left
+cf7984999d3cc8920c119e4cb9838e169789a977 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273407 -0700	commit (amend): Pulling the left lever into the "on" position
+6912d15ee418a9c2b1b35b55615b2d5133291180 cb54b17a82ce6c03272b867c870c8900d592ac5d Silent K <silentksionda@gmail.com> 1460273503 -0700	checkout: moving from left to right
+cb54b17a82ce6c03272b867c870c8900d592ac5d f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb Silent K <silentksionda@gmail.com> 1460273513 -0700	rebase -i (start): checkout master
+f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb 5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 Silent K <silentksionda@gmail.com> 1460273513 -0700	rebase -i (pick): Pulling right lever.
+5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 Silent K <silentksionda@gmail.com> 1460273513 -0700	rebase -i (finish): returning to refs/heads/right
+5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 Silent K <silentksionda@gmail.com> 1460273516 -0700	rebase -i (start): checkout master
+5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 Silent K <silentksionda@gmail.com> 1460273517 -0700	rebase -i (finish): returning to refs/heads/right
+5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 0e681cc958619b7332b725a659ef64f64d64ee26 Silent K <silentksionda@gmail.com> 1460273521 -0700	commit (amend): Pulling the right lever on down.
+0e681cc958619b7332b725a659ef64f64d64ee26 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273638 -0700	checkout: moving from right to left
+6912d15ee418a9c2b1b35b55615b2d5133291180 6912d15ee418a9c2b1b35b55615b2d5133291180 Silent K <silentksionda@gmail.com> 1460273654 -0700	checkout: moving from left to failed_both_levers
+6912d15ee418a9c2b1b35b55615b2d5133291180 dd922c63dbf7dd8aacba97a2cd919e42dea6c233 Silent K <silentksionda@gmail.com> 1460273725 -0700	commit: Pulling on right led to left lever going off again
+dd922c63dbf7dd8aacba97a2cd919e42dea6c233 f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb Silent K <silentksionda@gmail.com> 1460273870 -0700	checkout: moving from failed_both_levers to master

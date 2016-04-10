@@ -3,3 +3,6 @@
 1dc2391ecda8f9f1aa54b93f3b1ead7888fd50ff 550d952d92cb1460345453f6ad2a153edbadd659 Silent K <silentksionda@gmail.com> 1460261576 -0700	rebase -i (finish): refs/heads/right onto 5634c093b535ac2e92cbb4d4c1ad655472582cee
 550d952d92cb1460345453f6ad2a153edbadd659 2f54d3efd483f90892644063c1f8d176be03a262 Silent K <silentksionda@gmail.com> 1460267356 -0700	rebase -i (finish): refs/heads/right onto 29c1a423cf03f5cec856c2871ca336838a678d5e
 2f54d3efd483f90892644063c1f8d176be03a262 cb54b17a82ce6c03272b867c870c8900d592ac5d Silent K <silentksionda@gmail.com> 1460271087 -0700	rebase -i (finish): refs/heads/right onto 3a761da673a4d847e54a043908455be996f57468
+cb54b17a82ce6c03272b867c870c8900d592ac5d 5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 Silent K <silentksionda@gmail.com> 1460273513 -0700	rebase -i (finish): refs/heads/right onto f9e4eae0c79766b164f1d7bb9b10f9d8ba6220eb
+5cc0a7501a4a3fa89d27ff185180d35e6abc2c63 0e681cc958619b7332b725a659ef64f64d64ee26 Silent K <silentksionda@gmail.com> 1460273521 -0700	commit (amend): Pulling the right lever on down.
+0e681cc958619b7332b725a659ef64f64d64ee26 0e681cc958619b7332b725a659ef64f64d64ee26 Silent K <silentksionda@gmail.com> 1460273899 -0700	Branch: renamed refs/heads/right to refs/heads/partial_right
