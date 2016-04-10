@@ -1,2 +1,4 @@
 0000000000000000000000000000000000000000 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460305073 -0700	branch: Created from HEAD
 59e030dff6b41aefe1dd15f51e823b47e2e3f370 699846a3c2ab84b28000f3e741063b7386d43bb3 Isaac <iplunkett@localhost.localdomain> 1460305115 -0700	commit: you should never see this because this room is an instant win.
+699846a3c2ab84b28000f3e741063b7386d43bb3 d3a9d26b2daf189247050bb0670425c4d3dcf402 Silent K <silentksionda@gmail.com> 1460311688 -0700	rebase -i (finish): refs/heads/button_pushed onto 4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6
+d3a9d26b2daf189247050bb0670425c4d3dcf402 d45df1553b84401daa4d48eddcad39e6f197fd89 Silent K <silentksionda@gmail.com> 1460311697 -0700	commit (amend): you should never see this because this room is an instant win.

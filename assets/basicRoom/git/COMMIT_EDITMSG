@@ -1,8 +1,9 @@
 you should never see this because this room is an instant win.
+
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
-# Committer: Isaac <iplunkett@localhost.localdomain>
+# Author:    Isaac <iplunkett@localhost.localdomain>
 #
 # On branch button_pushed
 # Changes to be committed:

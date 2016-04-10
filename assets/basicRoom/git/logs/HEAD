@@ -2,3 +2,10 @@
 59e030dff6b41aefe1dd15f51e823b47e2e3f370 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460305073 -0700	checkout: moving from master to button_pushed
 59e030dff6b41aefe1dd15f51e823b47e2e3f370 699846a3c2ab84b28000f3e741063b7386d43bb3 Isaac <iplunkett@localhost.localdomain> 1460305115 -0700	commit: you should never see this because this room is an instant win.
 699846a3c2ab84b28000f3e741063b7386d43bb3 59e030dff6b41aefe1dd15f51e823b47e2e3f370 Isaac <iplunkett@localhost.localdomain> 1460305238 -0700	checkout: moving from button_pushed to master
+59e030dff6b41aefe1dd15f51e823b47e2e3f370 4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 Silent K <silentksionda@gmail.com> 1460311667 -0700	commit (amend): There is a locked door on the other side of the room. There is a button
+4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 699846a3c2ab84b28000f3e741063b7386d43bb3 Silent K <silentksionda@gmail.com> 1460311675 -0700	checkout: moving from start to button_pushed
+699846a3c2ab84b28000f3e741063b7386d43bb3 4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 Silent K <silentksionda@gmail.com> 1460311688 -0700	rebase -i (start): checkout start
+4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 d3a9d26b2daf189247050bb0670425c4d3dcf402 Silent K <silentksionda@gmail.com> 1460311688 -0700	rebase -i (pick): you should never see this because this room is an instant win.
+d3a9d26b2daf189247050bb0670425c4d3dcf402 d3a9d26b2daf189247050bb0670425c4d3dcf402 Silent K <silentksionda@gmail.com> 1460311688 -0700	rebase -i (finish): returning to refs/heads/button_pushed
+d3a9d26b2daf189247050bb0670425c4d3dcf402 d45df1553b84401daa4d48eddcad39e6f197fd89 Silent K <silentksionda@gmail.com> 1460311697 -0700	commit (amend): you should never see this because this room is an instant win.
+d45df1553b84401daa4d48eddcad39e6f197fd89 4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 Silent K <silentksionda@gmail.com> 1460311706 -0700	checkout: moving from button_pushed to start
