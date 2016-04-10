@@ -59,9 +59,9 @@ Seriously, though, here are some commands:
 }
 
 var prompts = [
-    'Enter help for more information: ',
-    'Enter command: '
-].reverse();
+    'Enter command: ',
+    'Enter help for more information: '
+]
 
 var question;
 
