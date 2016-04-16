@@ -9,3 +9,9 @@
 d3a9d26b2daf189247050bb0670425c4d3dcf402 d3a9d26b2daf189247050bb0670425c4d3dcf402 Silent K <silentksionda@gmail.com> 1460311688 -0700	rebase -i (finish): returning to refs/heads/button_pushed
 d3a9d26b2daf189247050bb0670425c4d3dcf402 d45df1553b84401daa4d48eddcad39e6f197fd89 Silent K <silentksionda@gmail.com> 1460311697 -0700	commit (amend): you should never see this because this room is an instant win.
 d45df1553b84401daa4d48eddcad39e6f197fd89 4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 Silent K <silentksionda@gmail.com> 1460311706 -0700	checkout: moving from button_pushed to start
+4eb25cc30e75edc3257ce3f468ee6dbc0cd11db6 2dcfa81e68bd35c28532585bb2b48913a77a3405 Silent K <silentksionda@gmail.com> 1460311806 -0700	commit (amend): You find yourself on the last car. You can feel yourself moving but
+2dcfa81e68bd35c28532585bb2b48913a77a3405 d45df1553b84401daa4d48eddcad39e6f197fd89 Silent K <silentksionda@gmail.com> 1460311906 -0700	checkout: moving from start to button_pushed
+d45df1553b84401daa4d48eddcad39e6f197fd89 2dcfa81e68bd35c28532585bb2b48913a77a3405 Silent K <silentksionda@gmail.com> 1460311912 -0700	rebase -i (start): checkout start
+2dcfa81e68bd35c28532585bb2b48913a77a3405 892c5ecdba1254da17f992dc97af957ce1b8b485 Silent K <silentksionda@gmail.com> 1460311912 -0700	rebase -i (pick): you should never see this because this room is an instant win.
+892c5ecdba1254da17f992dc97af957ce1b8b485 892c5ecdba1254da17f992dc97af957ce1b8b485 Silent K <silentksionda@gmail.com> 1460311912 -0700	rebase -i (finish): returning to refs/heads/button_pushed
+892c5ecdba1254da17f992dc97af957ce1b8b485 2dcfa81e68bd35c28532585bb2b48913a77a3405 Silent K <silentksionda@gmail.com> 1460311915 -0700	checkout: moving from button_pushed to start
